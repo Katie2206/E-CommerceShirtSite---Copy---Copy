@@ -1,0 +1,80 @@
+.selection, .selection1, .selection2{
+    display: block;
+    margin-left: 0;
+   
+}
+
+.sidebar{
+    float: left;
+    height: 100%;
+    margin-left: 30px;
+    box-sizing: border-box;
+}
+
+
+.selection1{
+    margin-top: 20px;
+
+}
+
+.selection2{
+    margin-bottom: 20px;
+}
+
+
+.sizeFilter h1{
+    font-weight: 100;
+    text-decoration: none;
+}
+
+
+
+label{
+    font-family: HM Sans Bolder,HMSansHebrew-Bold,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+    font-size: 15px;
+}
+
+h2{
+    font-size: 15px;
+    margin-left: 5px;
+    font-family: HM Sans Bolder,HMSansHebrew-Bold,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic,sans-serif;
+}
+
+
+.sidebar input[type="radio"]{
+    accent-color: aquamarine;
+    border: none;
+    outline: none;
+}
+
+input{
+    border: none;
+}
+
+.products{
+    margin-left: 20px;
+}
+
+.buyShirts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 20px;
+    
+}
+
+.shirts, .shirts1{
+    width: 250px;
+
+    float: left;
+    margin-left: 6px;
+    margin-bottom: 20px;
+}
+
+.shirts1{
+    margin-left: 200px;
+}
+
+.prices{
+    margin-top: 6px;
+}
